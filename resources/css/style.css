@@ -43,6 +43,7 @@ header img {
 .banner {
   background-image: url("../images/moto.jpeg");
   background-size: cover;
+  background-position: center;
   height: 25rem;
 
 }
@@ -89,4 +90,65 @@ nav ul {
 
 ul li {
   list-style: none;
+}
+
+/*main */
+
+.products {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.product {
+  width: 30%;
+}
+
+.product_images {
+  display: flex;
+  justify-content: center;
+  height: 9rem;
+  border: 4px solid black;
+}
+
+.product span {
+  display: block;
+  padding: 0.5rem;
+  background-color: black;
+  text-align: center;
+  color: white;
+
+}
+
+.product_watch {
+  display: flex;
+  justify-content: center;
+  height: 9rem;
+  border: 4px solid black;
+}
+
+.product_glasses {
+  display: flex;
+  justify-content: center;
+  height: 9rem;
+  border: 4px solid black;
+}
+
+/* buisness info */
+
+.buisness {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.info {
+  width: 35%;
+}
+
+.title {
+  display: block;
+  padding: 1rem 2rem;
+  background-color: black;
+  color: white;
 }
